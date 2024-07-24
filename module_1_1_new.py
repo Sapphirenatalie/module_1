@@ -27,7 +27,6 @@ print(example[5:])
 print(example[::-1])
 print(example[1::2])
 
-
 # Вывод на экран(в консоль):
 # Т
 # р
