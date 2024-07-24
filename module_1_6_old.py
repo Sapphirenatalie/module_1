@@ -9,7 +9,6 @@ my_list[2] = 'melon'
 print('Modified list:', my_list)
 
 print('---------------')
-
 my_dict = {'apple': 'яблоко', 'pineapple': 'ананас', 'orange': 'апельсин', 'lemon': 'лимон'}
 print('Dictionary:', my_dict)
 print('Translation for orange:', my_dict.get('orange'))
