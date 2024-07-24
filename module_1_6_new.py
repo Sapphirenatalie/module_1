@@ -22,7 +22,6 @@
 # Not existing value: None
 # Deleted value: 1999
 # Modified dictionary: {'Vasya': 1975, 'Kamila': 1981, 'Artem': 1915, 'Masha': 2002}
-
 # Set: {1, 'Яблоко', 42.314}
 # Modified set: {'Яблоко', 42.314, 13, (5, 6, 1.6)}
 
@@ -30,6 +29,7 @@ my_dict = {'Вася': 1975, 'Аня': 1981, 'Дима': 1995, 'Маша': 2002}
 print('Dictionary:', my_dict)
 print('Year of birth Аня (Existing value): ', my_dict.get('Аня'))
 print('Year of birth Маня (Not existing value): ', my_dict.get('Маня'))
+
 my_dict.update({'Таня': '2002', 'Юра': '1998'})
 print('Dictionary updated:', my_dict)
 print('Deleted value:', my_dict.pop('Вася'))
